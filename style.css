@@ -1,0 +1,70 @@
+body{
+    background: url("img/dark-honeycomb.png");
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    color: gray;
+    
+}
+#header_top{
+    background: #242222;
+    width: 100%;
+    height: 70px;
+}
+#logo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 46px;
+    color: crimson;
+    width: 280px;
+    text-align: center;
+    text-shadow: 
+    2px 2px 0 rgb(26, 26, 26),
+    -2px 2px 0 rgb(26, 26, 26),
+    -2px -2px 0 rgb(26, 26, 26),
+    2px -2px 0 rgb(26, 26, 26);
+    padding-left: 10px;
+}
+.navi{
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    color: wheat;
+    border-left: 3px dotted crimson;
+    list-style-type: none;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: flex;
+}
+#rampage_navi{
+    border: none;
+}
+
+#welcome_header{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+    padding-top: 250px; 
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#welcome_content{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.events_header{
+    color: crimson;
+    text-align: center;
+    font-size: 39px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+}
+.events_content{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
