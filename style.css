@@ -29,7 +29,6 @@ body {
   font-size: 30px;
   color: crimson;
   border-left: 3px dotted orange;
-  border-right: 3px dotted orange;
   list-style-type: none;
   float: left;
   padding-left: 2vmax;
@@ -88,5 +87,9 @@ body {
 
 #rampage_header {
   border: none;
+}
+
+.social {
+  border: 3px solid snow;
 }
 /*# sourceMappingURL=style.css.map */

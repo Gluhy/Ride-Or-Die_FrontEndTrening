@@ -37,7 +37,6 @@ body{
     font-size: 30px;
     color: $color_naviFont;
     border-left: 3px dotted $color_logo;
-    border-right: 3px dotted $color_logo;
     list-style-type: none;
     float: left;
     padding-left: 2vmax;
@@ -89,4 +88,8 @@ body{
 
 #rampage_header{
     border: none;
+}
+
+.social{
+    border: 3px solid snow;
 }
