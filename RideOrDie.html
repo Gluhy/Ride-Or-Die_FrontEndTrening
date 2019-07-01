@@ -6,6 +6,25 @@
         <meta name="description" content="">
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Bangers|Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="jquery.scrollTo.min.js"></script>
+        <script>
+                jQuery(($)=>{
+                    //zresetuj scrolla
+                    $.scrollTo(0)
+        
+                    $(`#rampage_navi`).click(()=> {$.scrollTo($(`#rampage`),400); })
+                    $(`#crankworx_navi`).click(()=> {$.scrollTo($(`#crankworx`),400); })
+                    $(`#hardline_navi`).click(()=> {$.scrollTo($(`#hardline`),400); })
+                    $(`#dhwc_navi`).click(()=> {$.scrollTo($(`#dhwc`),400); })
+                    $(`#fest_navi`).click(()=> {$.scrollTo($(`#fest`),400); })
+                    $(`#info_navi`).click(()=> {$.scrollTo($(`#info`),400); })
+                    
+                })
+                
+        
+                </script>
     </head>
     <body>
         <header>
@@ -32,10 +51,30 @@
             </header>
             <article>
                 <section>
-                    <div id="rampage" class="events">
+                    <div id="rampage" herf="#" class="events">
                         <h1 id="rampage_header" class="events_header">Rampage</h1>
                         <p id="rampage_content" class="events_content">Zawody Red Bull rampage, są to zawody organizowane w USA, w Utah, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti doloribus rem, facere pariatur impedit soluta numquam eius modi inventore cupiditate debitis, voluptates tempora quisquam nam labore dolorem aliquid fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem tempore at consectetur dolorem magni illo libero dolores asperiores autem iusto deserunt totam voluptas maxime perferendis temporibus, porro, cum dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam nobis enim consequuntur quidem, dignissimos cum aliquam est facilis et rem ducimus dolore eos qui nam mollitia omnis, impedit animi!Lorem</p>
                     </div>
+                    <div id="crankworx" herf="#" class="events">
+                        <h1 id="crankworx_header" class="events_header">Crankworx</h1>
+                        <p id="crankworx_content" class="events_content">Zawody Red Bull rampage, są to zawody organizowane w USA, w Utah, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti doloribus rem, facere pariatur impedit soluta numquam eius modi inventore cupiditate debitis, voluptates tempora quisquam nam labore dolorem aliquid fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem tempore at consectetur dolorem magni illo libero dolores asperiores autem iusto deserunt totam voluptas maxime perferendis temporibus, porro, cum dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam nobis enim consequuntur quidem, dignissimos cum aliquam est facilis et rem ducimus dolore eos qui nam mollitia omnis, impedit animi!Lorem</p>
+                    </div>    
+                    <div id="hardline" herf="#" class="events">
+                        <h1 id="hardline_header" class="events_header">hardline</h1>
+                        <p id="hardline_content" class="events_content">Zawody Red Bull rampage, są to zawody organizowane w USA, w Utah, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti doloribus rem, facere pariatur impedit soluta numquam eius modi inventore cupiditate debitis, voluptates tempora quisquam nam labore dolorem aliquid fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem tempore at consectetur dolorem magni illo libero dolores asperiores autem iusto deserunt totam voluptas maxime perferendis temporibus, porro, cum dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam nobis enim consequuntur quidem, dignissimos cum aliquam est facilis et rem ducimus dolore eos qui nam mollitia omnis, impedit animi!Lorem</p>
+                    </div>    
+                    <div id="dhwc" herf="#" class="events">
+                        <h1 id="dhwc_header" class="events_header">Downhill World Cup</h1>
+                        <p id="dhwc_content" class="events_content">Zawody Red Bull rampage, są to zawody organizowane w USA, w Utah, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti doloribus rem, facere pariatur impedit soluta numquam eius modi inventore cupiditate debitis, voluptates tempora quisquam nam labore dolorem aliquid fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem tempore at consectetur dolorem magni illo libero dolores asperiores autem iusto deserunt totam voluptas maxime perferendis temporibus, porro, cum dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam nobis enim consequuntur quidem, dignissimos cum aliquam est facilis et rem ducimus dolore eos qui nam mollitia omnis, impedit animi!Lorem</p>
+                    </div>    
+                    <div id="fest" herf="#" class="events">
+                        <h1 id="fest_header" class="events_header">FEST Series Loosefest</h1>
+                        <p id="fest_content" class="events_content">Zawody Red Bull rampage, są to zawody organizowane w USA, w Utah, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia corrupti doloribus rem, facere pariatur impedit soluta numquam eius modi inventore cupiditate debitis, voluptates tempora quisquam nam labore dolorem aliquid fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptatem tempore at consectetur dolorem magni illo libero dolores asperiores autem iusto deserunt totam voluptas maxime perferendis temporibus, porro, cum dolor?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laboriosam nobis enim consequuntur quidem, dignissimos cum aliquam est facilis et rem ducimus dolore eos qui nam mollitia omnis, impedit animi!Lorem</p>
+                    </div>    
+                    <div id="info" herf="#" class="events">
+                        <h1 id="info_header" class="events_header">Informacje</h1>
+                        <p id="info_content" class="events_content">Kontakt: rewenhi@gmail.com</p>
+                    </div>    
                 </section>
             </article>
             <footer>
@@ -45,7 +84,6 @@
         <footer>
             <!--Te śmieszne prawa autorskie-->
         </footer>
-        
         <script src="" async defer></script>
     </body>
 </html>
