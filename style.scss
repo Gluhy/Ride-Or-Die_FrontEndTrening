@@ -91,5 +91,24 @@ body{
 }
 
 .social{
-    border: 3px solid snow;
+    border-radius: 20px;
+    width: 33.5%;
+    float: left;
+    text-align: center;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    color: white;
+    height: 170px;
+}
+#fb{
+    background: #3C5A99;
+}
+#yt{
+    background: #c4302b;
+}
+#gmail{
+    background: #D44638;
+}
+#git{
+    background: #333;
 }
