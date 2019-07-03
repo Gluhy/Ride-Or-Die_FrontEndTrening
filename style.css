@@ -89,12 +89,16 @@ body {
   border: none;
 }
 
+#info_header {
+  margin-bottom: 150px;
+}
+
 .social {
   border-radius: 20px;
-  width: 33.5%;
+  width: 25.5%;
   float: left;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 250px;
   margin-bottom: 150px;
   color: white;
   height: 170px;
