@@ -17,7 +17,7 @@ body {
 #logo {
   font-family: "Permanent Marker", cursive;
   font-size: 46px;
-  color: orange;
+  color: darkorange;
   width: 280px;
   text-align: center;
   text-shadow: 2px 2px 0 #1a1a1a, -2px 2px 0 #1a1a1a, -2px -2px 0 #1a1a1a, 2px -2px 0 #1a1a1a;
@@ -28,7 +28,7 @@ body {
   font-family: "Bangers", cursive;
   font-size: 30px;
   color: crimson;
-  border-left: 3px dotted orange;
+  border-left: 3px dotted darkorange;
   list-style-type: none;
   float: left;
   padding-left: 2vmax;
@@ -67,7 +67,7 @@ body {
 }
 
 .events_header {
-  color: orange;
+  color: darkorange;
   text-align: left;
   font-size: 39px;
   font-family: "Bangers", cursive;
@@ -106,6 +106,7 @@ body {
 
 .social:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 #fb {
